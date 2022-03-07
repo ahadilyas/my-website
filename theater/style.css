@@ -63,8 +63,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 70rem;
-  top: 40rem;
+  
 }
 .social li
 {
@@ -81,4 +80,15 @@ nav ul li a:hover {
 .social li a:hover
 {
   transform: scale(0.5) translateY(-15px);
+}
+
+.description h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+.description p{
+  color: white;
 }
